@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <center>
+            <h1>Create</h1>
+            <form method="post">
+                {% csrf_token %}
+                <input type="text" placeholder="task name" required name="task"><br><br>
+                <input type="text" placeholder="status" required name="status"><br><br>
+                <input type="submit">
+                <!-- <input type="checkbox" value="Complete">Complete
+                <input type="checkbox" value="InComplete">InComplete -->
+            </form>
+            </center>
+    </body>
+</html>
